@@ -1,39 +1,57 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IntelliJ IDEA ###
-.idea
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+# -------------------------
+# Pastas de build
+# -------------------------
+/build/
 /dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/out/
+/target/
 
-### VS Code ###
-.vscode/
+# -------------------------
+# Arquivos compilados
+# -------------------------
+*.class
+*.jar
+*.war
+*.ear
 
-### Mac OS ###
-.DS_Store
+# -------------------------
+# Arquivos temporários
+# -------------------------
+*.log
+*.tmp
+*.swp
+*~
+
+# -------------------------
+# Configurações de IDE
+# -------------------------
+# Eclipse
+/.settings/
+/.project
+/.classpath
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# VS Code
+/.vscode/
+
+# -------------------------
+# Arquivos específicos do sistema
+# -------------------------
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# -------------------------
+# Manifest e outros arquivos gerados
+# -------------------------
+manifest.m
+manifest.mf
+*.mf
+
+# -------------------------
+# Arquivos de backup ou antigos
+# -------------------------
+*.bak
+*.old
